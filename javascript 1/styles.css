@@ -1,0 +1,19 @@
+.text-box{
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    background-color: rgba(15, 155, 254, 0.15);
+    margin-top: 500px;
+    border-radius: 25px;
+
+}
+.box{
+    text-align: center;
+}
+
+.texter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+   
+}

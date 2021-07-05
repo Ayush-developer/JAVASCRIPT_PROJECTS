@@ -1,0 +1,72 @@
+body{
+     text-align: center;
+     font-family: 'Press Start 2P', cursive;
+     background-color: crimson;
+}
+.containing{
+    margin-top: 50px;
+    text-shadow: 5px 5px black;
+    color: chartreuse;
+    
+}
+.start{
+    margin-bottom: 20px;
+    font-size: 50px;
+    animation: worker 1s;
+}
+.scorer{
+    font-size:50px;
+    animation: baller 1.5s;
+}
+@keyframes worker{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity:1;
+        transform:tarnslateY(100px);
+    }
+}
+@keyframes baller{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity:1;
+        transform:tarnslateY(-100px);
+    }
+}
+
+@keyframes censter{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(-0.5px);
+    }
+}
+.muse{
+    margin-top: 20px;
+   animation:  censter 1s;
+}
+
+@keyframes jinipan{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform : translateX(50px);
+        
+    }
+}
+
+li{
+    margin-bottom: 10px;
+   
+}

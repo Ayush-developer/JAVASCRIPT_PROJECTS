@@ -1,0 +1,59 @@
+body{
+  background-color: #ecf0f3;
+  text-align: center;
+}
+
+.body{
+    text-align: center;
+    width:430px;
+  height: 500px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.headin{
+    font-family: 'Tourney', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: #CD6799;
+}
+.headin-2{
+    font-family: 'Tourney', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    color: #CD6799;
+}
+#stars-bill{
+     height: 30px;
+     border-radius: 5px;
+     border-color: #CD6799;
+     margin: 10px;
+}
+
+button{
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ecf0f3;
+    border-color: #CD6799;
+    font-family: 'Tourney', cursive;
+    transition: all 0.55s;
+  
+}
+button:hover{
+  transform: translateY(-3px) scale(1.15);
+}
+button:active{
+  transform:translateY(3px) scale(1.15);
+}
+.output{
+    font-family: 'Tourney', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    color: #CD6799;
+}
