@@ -1,0 +1,49 @@
+/* color pallete = #40FFCC, #106fff; */
+
+
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+.heading{
+    text-align: center;
+}
+.texteko{
+    font-size: 50px;
+    
+}
+.designered{
+    height: 5px;
+    width: 120px;
+    color: #40FFCC;
+    background-color: #40FFCC;
+    margin: auto;
+    transform: translateY(-20px);
+}
+
+.canton{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #105fff;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+
+.soln{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #40ffcc;
+    padding: 12px;
+    border-radius: 10px;
+    display: none;
+}
+
+
+i{
+    margin-left: 20px;
+    transform: scale(1.5);
+    color: #105fff;
+}
