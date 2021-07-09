@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.star {
+    font-size: 2.5em;
+    color: #ddd;
+    display: inline-block;
+    transform: scale(1.65);
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    border-color: black;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+.output {
+    margin: 50px 0;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #ddd;
+}
+
+body{
+    text-align: center;
+    background-color: #2f4f4f;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+h1{
+    font-size:60px;
+    color:yellow;
+    margin-bottom: 10px;
+}
+
+
+
+.review-us{
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.posting{
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin-left: 650px;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+
+}
+
+.output{
+    display: none;
+}
+
+.fa-grimace
+{
+    color: yellow;
+}
+.fa-laugh-beam
+{
+    color: yellow;
+}
+.fa-grin-hearts
+{
+    color: yellow;
+}
+.fa-kiss-wink-heart
+{
+    color: yellow;
+}
+
+
+
+
+.fa-tired
+{
+    color: yellow;
+}
+
+
+
+
+textarea{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.fa-check-circle{
+    color: green;
+}
